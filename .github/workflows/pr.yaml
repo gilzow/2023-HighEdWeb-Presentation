@@ -2,8 +2,6 @@ on:
   pull_request_target:
     branches:
       - main
-env:
-  PROD_URL: ${{ vars.PRODURL }}
 
 jobs:
   run-vrt:
